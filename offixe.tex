@@ -1,14 +1,13 @@
 \chapter{OFFIXE}
-\section{KD-82MS (Z171)}
+\section{KD-82MS (Z171)}\index{OFFIXE!Z171}
 Calcolatrice prodotta in Cina, probabile clone Casio FX-82MS\index{Casio!FX82MS}
+\subsection{Test interno}
+Il test\[\arcsin(\arccos(\arctan(\tan(\cos(\sin(9))))))=9\] ha come risulta dalla tabella~\vref{tab:OFFIXEKD82MS}. 
+\subsection{Modi funzionamento}
+La calcolatrice ha tre modi di funzionamento, calcoli aritmetici di base, deviazione standard, calcoli di regressione
+\subsection{Formati visualizzazione}
+\CASIOmodediplayexp
 
-Test	\[\arcsin(\arccos(\arctan(\tan(\cos(\sin(9))))))=9\]
-\begin{figure}
-\centering
-\includegraphics[width=0.3\linewidth]{offixe/SAM_3719}
-\caption{OFFIXE KD-82MS (Z171)}
-\label{fig:sam3719}
-\end{figure}
 \begin{table}
 	\centering
 		\begin{tabular}{lll}
@@ -21,3 +20,29 @@ Test	\[\arcsin(\arccos(\arctan(\tan(\cos(\sin(9))))))=9\]
 	\caption{OFFIXE KD-82MS (Z171)}
 	\label{tab:OFFIXEKD82MS}
 \end{table}
+\begin{table}\centering
+	\begin{tabular}{ccc}
+	\toprule
+	MODO	&TASTI  &  DISPLAY\\ 
+		\midrule 
+	Calcoli aritmetici di base	& \tastomode\tasto{1} & COMP \\ 
+		\midrule 
+	Deviazione standard	&\tastomode\tasto{2}  & SD \\ 
+		\midrule 
+	Calcoli di regressione	&\tastomode\tasto{3}  & REG  \\ 
+		\bottomrule
+	\end{tabular} 
+		\caption{Modi: OFFIXE KD-82MS (Z171)}
+	\label{tab:OFFIXEKD82MSModi}
+\end{table}
+\begin{figure}
+	\begin{subfigure}[b]{.5\linewidth}
+	\centering\includegraphics{offixe/SAM_3719}%
+		\caption{Fronte}\label{fig:OFFIXEfront}
+	\end{subfigure}%
+	\begin{subfigure}[b]{.5\linewidth}
+   \centering\includegraphics{offixe/7019561509344433257}%
+		\caption{PCB}\label{fig:OFFIXEPCB}
+	\end{subfigure}
+	\caption{OFFIXE KD-82MS (Z171)}\label{fig:OFFIXEKD82MS}
+\end{figure}
