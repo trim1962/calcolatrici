@@ -28,14 +28,14 @@
 \usepackage{imakeidx}
 \makeindex[options=-s ../Mod_base/oldclaudio.sti]
 
-%\usepackage[style=italian]{csquotes}
-%\usepackage[%
-%style=philosophy-modern,
-%annotation=true,
-%hyperref,
-%backend=biber,
-%backref]{biblatex}
-%\addbibresource{biblioscuola.bib}
+\usepackage[style=italian]{csquotes}
+\usepackage[%
+style=philosophy-modern,
+annotation=true,
+hyperref,
+backend=biber,
+backref]{biblatex}
+\addbibresource{calcolatrici.bib}
 \usepackage[italian]{varioref}
 \usepackage{hyperxmp}
 \usepackage[pdfpagelabels,plainpages=false]{hyperref}
@@ -54,7 +54,7 @@
 	pdflang={it},
 	pdfmetalang={it},
 	pdfkeywords={Calcolatrici},
-	pdfcopyright={Copyright (C) 2019, Claudio Duchi},
+	pdfcopyright={Copyright (C) 2021, Claudio Duchi},
 	pdfcontacturl={http://breviariomatematico.altervista.org},
 	pdfcontactpostcode={06128},
 	pdfcontactphone={},
@@ -124,16 +124,16 @@
 		\tableofcontents
 		\listoffigures
 		\listoftables
-			\mainmatter
+		\mainmatter
 \input{compiladue}		
 %\cleardoublepage
 %\glsaddall	
 %\twocolumn
 %\printglossaries
 %\onecolumn		
-%\nocite{*}
-% \addcontentsline{toc}{chapter}{\bibname}
-%\printbibliography
+\nocite{*}
+ \addcontentsline{toc}{chapter}{\bibname}
+\printbibliography
 \printindex
 \backmatter
 \appendix
